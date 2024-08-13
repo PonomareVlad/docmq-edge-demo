@@ -1,0 +1,6 @@
+{
+  "name": "docmq-edge-demo",
+  "dependencies": {
+    "docmq": "^0.5.7"
+  }
+}
