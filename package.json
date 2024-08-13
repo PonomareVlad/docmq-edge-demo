@@ -2,10 +2,10 @@
   "name": "docmq-edge-demo",
   "dependencies": {
     "docmq": "npm:@ponomarevlad/docmq@0.5.6-browser.1",
-    "mongodb": "github:PonomareVlad/mongo-realm-web-wrapper#transactions-support"
+    "mongodb": "github:PonomareVlad/mongo-realm-web-wrapper#commands-support"
   },
   "overrides": {
     "cron-parser": "npm:@ponomarevlad/cron-parser@4.9.0-browser.1",
-    "mongodb": "github:PonomareVlad/mongo-realm-web-wrapper#transactions-support"
+    "mongodb": "github:PonomareVlad/mongo-realm-web-wrapper#commands-support"
   }
 }
