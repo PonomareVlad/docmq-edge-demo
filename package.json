@@ -4,6 +4,6 @@
     "docmq": "^0.5.7"
   },
   "overrides": {
-    "cron-parser": "@ponomarevlad/cron-parser"
+    "cron-parser": "@ponomarevlad/cron-parser@4.9.0-browser.1"
   }
 }
