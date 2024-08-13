@@ -10,6 +10,6 @@ export default async () => {
         results.push(job);
         await api.ack();
     })
-    await wait(3000);
+    await wait(20000);
     return Response.json(results)
 }
