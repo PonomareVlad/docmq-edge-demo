@@ -2,5 +2,8 @@
   "name": "docmq-edge-demo",
   "dependencies": {
     "docmq": "^0.5.7"
+  },
+  "overrides": {
+    "cron-parser": "@ponomarevlad/cron-parser"
   }
 }
