@@ -1,7 +1,7 @@
 {
   "name": "docmq-edge-demo",
   "dependencies": {
-    "docmq": "npm:@ponomarevlad/docmq@0.5.6-browser.1",
+    "docmq": "npm:@ponomarevlad/docmq@^0.5.6-browser.1",
     "mongodb": "github:PonomareVlad/mongo-realm-web-wrapper#transactions-support"
   },
   "overrides": {
