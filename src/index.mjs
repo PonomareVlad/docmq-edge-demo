@@ -1,3 +1,4 @@
-import {MemoryDriver, Queue} from "docmq";
+import {Queue} from "docmq";
+import {MongoDriver} from "docmq/driver/mongo";
 
-export const queue = new Queue(new MemoryDriver("default"), "docmq");
+export const queue = new Queue(new MongoDriver(process.env.MONGODB_URI), "docmq");
